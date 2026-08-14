@@ -78,8 +78,8 @@ const Hero = () => {
             <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
           </a>
           <a
-            href="/Calleja_Resume.pdf"
-            download="Calleja_Resume.pdf"
+            href="/Calleja-JohnLexer_Resume.pdf"
+            download="Calleja-JohnLexer_Resume.pdf"
             className="px-8 py-3.5 rounded-full bg-white text-black font-semibold hover:bg-gray-100 transition-all shadow-lg flex items-center justify-center gap-2 w-full sm:w-auto"
           >
             <Download size={18} />
