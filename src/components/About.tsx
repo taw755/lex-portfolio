@@ -70,7 +70,7 @@ const About = () => {
                   </div>
                   <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight bg-gradient-to-r from-[#4338CA] via-[#6366F1] to-[#9333EA] bg-clip-text text-transparent flex items-center gap-2">
                     <span>One commit at a time</span>
-                    {/* <Sparkles size={20} className="text-[#8B5CF6] shrink-0 inline-block animate-pulse" /> */}
+                    <Sparkles size={20} className="text-[#8B5CF6] shrink-0 inline-block animate-pulse" />
                   </h3>
                 </div>
 
