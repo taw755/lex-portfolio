@@ -1,6 +1,7 @@
 import { ArrowRight, Download, Mail } from 'lucide-react';
 import { motion } from 'framer-motion';
 import TextType from './TextType';
+import resumePdf from '../../public/Calleja_Resume.pdf?url';
 
 const Hero = () => {
   return (
@@ -78,7 +79,7 @@ const Hero = () => {
             <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
           </a>
           <a
-            href="/Calleja_Resume.pdf"
+            href={resumePdf}
             target="_blank"
             rel="noopener noreferrer"
             download="Calleja_Resume.pdf"
