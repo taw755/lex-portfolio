@@ -1,0 +1,23 @@
+.scroll-stack-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.scroll-stack-item {
+  position: sticky;
+  top: 100px; /* Offset for navbar */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Ensure subsequent cards stack properly on mobile and desktop */
+@media (max-width: 768px) {
+  .scroll-stack-container {
+    gap: 1.5rem;
+  }
+  .scroll-stack-item {
+    top: 80px;
+  }
+}
