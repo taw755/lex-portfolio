@@ -81,11 +81,10 @@ const Hero = () => {
             href="/Calleja_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            download="Calleja_Resume.pdf"
             className="px-8 py-3.5 rounded-full bg-white text-black font-semibold hover:bg-gray-100 transition-all shadow-lg flex items-center justify-center gap-2 w-full sm:w-auto"
           >
             <Download size={18} />
-            Download Resume ↗
+            View Resume ↗
           </a>
           <a
             href="#contact"
