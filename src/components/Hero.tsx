@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowRight, Download, Mail, X, Send, CheckCircle2, XCircle } from 'lucide-react';
+import { ArrowRight, Download, Mail, X, CheckCircle2, XCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import TextType from './TextType';
 
